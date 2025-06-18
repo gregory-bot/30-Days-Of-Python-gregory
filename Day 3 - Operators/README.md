@@ -1,21 +1,14 @@
+
 ![Python Operators](https://www.aipython.in/wp-content/uploads/2020/04/Python-operators-1024x576.jpg)
 
+---
 
-✅ Boolean Basics
+## ✅ Boolean Basics
 
-✅ Arithmetic, Comparison & Logical Operators
-
-✅ Real-world Math Calculations
-
-✅ A bunch of fun hands-on exercises 🚀
-
-🔘 Boolean Data Type
-python
-Copy
-Edit
-print(True)   # Outputs: True
-print(False)  # Outputs: False
-🧠 Boolean values are either True or False and are case-sensitive in Python.
+```python
+print(True)   # Output: True
+print(False)  # Output: False
+🧠 Boolean values must be capitalized in Python (True, False)
 
 🧮 Arithmetic Operators
 Operator	Description	Example	Result
@@ -27,9 +20,7 @@ Operator	Description	Example	Result
 //	Floor Division	7 // 3	2
 **	Exponentiation	2 ** 3	8
 
-🔧 Tip: Use // to avoid decimals when dividing whole numbers.
-
-➗ Example: Quick Math
+➗ Quick Math Example
 python
 Copy
 Edit
@@ -46,51 +37,47 @@ print('a ** b =', a ** b)
 python
 Copy
 Edit
-# Circle area
+# Circle
 radius = 10
 area = 3.14 * radius ** 2
 print("Circle Area:", area)
 
-# Rectangle area and perimeter
+# Rectangle
 length, width = 15, 5
 print("Rect Area:", length * width)
 print("Rect Perimeter:", 2 * (length + width))
-💡 Try applying this to triangles, distance, or volume!
-
 🧩 Comparison Operators
 python
 Copy
 Edit
-print(4 > 3)      # True
-print(4 == 4)     # True
-print(5 != 3)     # True
+print(4 > 3)            # True
+print(4 == 4)           # True
+print(5 != 3)           # True
 print('a' in 'banana')  # True
 ⚡ Logical Operators
 Operator	Meaning	Example	Result
-and	True if both true	True and True	True
-or	True if one is true	True or False	True
+and	Both True	True and True	True
+or	At least one True	True or False	True
 not	Inverts value	not True	False
 
 🧠 Mini Challenges
-Try solving these:
+Declare variables: your age (int), height (float), and a complex number.
 
-Declare your age (int), height (float), and a complex number.
+Ask user for base & height → calculate triangle area.
 
-Ask user for base & height and compute triangle area.
+Ask user for 3 sides → calculate triangle perimeter.
 
-Ask for 3 sides and compute triangle perimeter.
+Write script: pay = hourly_rate × hours_worked.
 
-Write a Python script to calculate pay based on hourly rate.
+Build a multiplication power table:
 
-Build a table like:
-
-python-repl
+python
 Copy
 Edit
-1 1 1 1 1
-2 1 2 4 8
-...
-🧠 Bonus Exercise (Slope & Distance)
+print("1 1 1 1 1")
+print("2 1 2 4 8")
+# ...
+🧠 Bonus – Slope & Distance
 python
 Copy
 Edit
@@ -102,8 +89,6 @@ x2, y2 = 6, 10
 slope = (y2 - y1) / (x2 - x1)
 print("Slope:", slope)
 
-# Euclidean Distance
-distance = ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+# Distance
+distance = ((x2 - x1)**2 + (y2 - y1)**2) ** 0.5
 print("Distance:", distance)
-🎉 You’ve completed Day 3!
-Tomorrow is all about Strings – the fun stuff! Stay consistent and keep coding!
