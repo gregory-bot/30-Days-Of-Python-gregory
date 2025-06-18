@@ -1,0 +1,46 @@
+🧮 Declaring variables
+python
+Copy
+Edit
+first_name = 'Gregory'
+last_name = 'Kipngeno'
+full_name = first_name + ' ' + last_name
+age = 23
+is_married = False
+country = 'Kenya'
+📚 Printing & Using Built-in Functions
+python
+Copy
+Edit
+print('Full Name:', full_name)
+print('Length of first name:', len(first_name))
+print('Data type of age:', type(age))
+🔄 Multiple variables in one line
+python
+Copy
+Edit
+first_name, last_name, country, age = 'Gregory', 'Kipngeno', 'Kenya', 23
+📥 User Input Example
+python
+Copy
+Edit
+first_name = input('What is your first name? ')
+age = input('How old are you? ')
+print(first_name, age)
+🔁 Type Casting Example
+python
+Copy
+Edit
+age_str = '23'
+age_int = int(age_str)
+print(age_int, type(age_int))
+🔢 Simple Math with Variables
+python
+Copy
+Edit
+num1 = 5
+num2 = 4
+print('Sum:', num1 + num2)
+print('Difference:', num1 - num2)
+print('Product:', num1 * num2)
+print('Division:', num1 / num2)
